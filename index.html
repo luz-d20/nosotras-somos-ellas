@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
             <div class="container-fluid">
             <a class="navbar-brand" href="#">NOSOTRAS SOMOS ELLAS</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +38,7 @@
         <h1>Nosotras Somos Ellas</h1>
         <h2>Cien Años De Historia De Mujeres En La Patagonia</h2>
       </div>
-        <section class="book-details" id="preventa">
+        <section class="book-details container" id="preventa">
           <article class="book-slider">
 
             <div class="slider-container">
@@ -82,11 +82,13 @@
               </div>
 
             </div>
-            <div class="preorder">
+            <div class="preorder center">
               <p>¡VENTA ANTICIPADA CON UN XX% DE DESCUENTO!</p>
-              <p>Valor de preventa:<br><s>$3500</s> $2800</p>
+              <p>Valor de preventa:<br><s>$3500</s> $2800<br>
+              <span>+ envío para domicilios fuera de Bariloche (AR$ 1200 a todo el país)</span></p>
+              
             </div>
-            <div class="buttons">
+            <div class="buttons center">
               <a class="btn btn-dark openModal" id="retiro-btn">Retiro en Bariloche</a>
               <a class="btn btn-dark openModal" id="envio-btn">Con Envío</a>
             </div>
@@ -341,7 +343,7 @@ $.extend($.validator.messages, {
         </section>
       </main>
 
-      <section class="contacto">
+      <section id="contacto" class="contacto container center">
         <h2>¿Tenés alguna consulta?</h2>
         <h4>Escribinos a xxxxx@gmail.com</h4>
       </section>

@@ -21,6 +21,11 @@ h1, h2, h3, h4, h5, h6 {
 h1 span, h2 span, h3 span {
     font-weight: 700;
 }
+.container {
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 40px;
+}
 .book-main {
     display: flex;
     flex-direction: column;
@@ -74,6 +79,10 @@ h1 span, h2 span, h3 span {
     font-size: 1.3rem;
     font-weight: 600;
   }
+  .preorder span {
+    font-size: 10px;
+    font-style: italic;
+  }
 
   /*Modal*/
   .modal {
@@ -119,10 +128,14 @@ h1 span, h2 span, h3 span {
     cursor: pointer;
   }
   
-  /*Authors*/
+/*Authors*/
 .author {
     display: flex;
     flex-direction: row;
+    column-gap: 50px;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
 }
 .author img {
     max-width: 300px;
