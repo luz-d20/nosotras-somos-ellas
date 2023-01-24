@@ -99,7 +99,7 @@ h1 span, h2 span, h3 span {
     margin: auto;
     padding: 30px 40px 10px 20px;
     border: 1px solid #888;
-    width: 80%; 
+    max-width: 800px; 
   }
   
   /* Close Button */
@@ -127,4 +127,7 @@ h1 span, h2 span, h3 span {
 .author img {
     max-width: 300px;
     height: auto;
+}
+.brandingLogo {
+    display: none;
 }
