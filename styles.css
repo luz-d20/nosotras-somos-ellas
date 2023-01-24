@@ -131,3 +131,18 @@ h1 span, h2 span, h3 span {
 .brandingLogo {
     display: none;
 }
+
+form {
+    font-family: 'Montserrat', sans-serif!important;
+}
+.mc-field-group {
+    padding-bottom: 0!important;
+}
+#mc-embedded-subscribe {
+    color: violet!important;
+}
+footer {
+    height: 50px;
+    background-color: #1e1e1e;
+    color: #fafafa;
+}
