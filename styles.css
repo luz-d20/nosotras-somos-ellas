@@ -116,6 +116,7 @@ h1 span, h2 span, h3 span {
   
   /* Modal Content/Box */
   .modal-content {
+    overflow-y: scroll;
     position: relative;
     background-color: #fefefe;
     margin: auto;
