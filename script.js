@@ -4,7 +4,7 @@ $(document).ready(function() {
       gallery:true,
       item:1,
       vertical:true,
-      verticalHeight:600,
+      verticalHeight:625,
       vThumbWidth:50,
       thumbItem:8,
       thumbMargin:4,
@@ -40,7 +40,11 @@ span[2].onclick = function() {
 }
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
+    if (event.target == modal[0]) {
+        modal[0].style.display = "none";
+    } else if (event.target == modal[1]) {
+        modal[1].style.display = "none";
+    } else if (event.target == modal[2]) {
+        modal[2].style.display = "none";
     }
 }
