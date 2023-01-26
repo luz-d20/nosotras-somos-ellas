@@ -163,8 +163,8 @@ form {
     padding-bottom: 0!important;
 }
 #mc-embedded-subscribe {
-    background-color: #1e1e1e;
-    color: #fafafa;
+    background-color: #1e1e1e!important;
+    color: #fafafa!important;
 }
 footer {
     height: 60px;
