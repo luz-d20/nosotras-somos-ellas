@@ -264,6 +264,12 @@ blockquote p:first-child {
 .mobile-display {
   display: none;
 }
+.modal table, .modal td, .modal th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 2px 5px;
+  margin: 10px;
+}
 @media screen and (max-width: 768px) {
   .book-details {
     flex-direction: column;
