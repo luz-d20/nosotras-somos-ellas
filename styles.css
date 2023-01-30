@@ -308,3 +308,8 @@ blockquote p:first-child {
     height: 100px;
   }
 }
+#brc {
+  font-weight: 700;
+  color: red;
+  font-size: 19px;
+}
