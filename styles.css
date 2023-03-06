@@ -87,9 +87,11 @@ h1 span, h2 span, h3 span {
     font-size: 1.2rem;
     font-weight: 600;
     margin-top: 30px;
+    max-width: 1100px;
   }
   .preorder {
     padding: 10px 20px 40px;
+      
   }
   .preorder h2 {
     font-weight: 700;
