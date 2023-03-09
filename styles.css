@@ -251,7 +251,7 @@ blockquote p:first-child {
   padding: 20px;
   background-color: #86410026;
   border-radius: 10px;
-  text-align: justify;
+  text-align: left;
 }
 .about h2 {
   margin-bottom: 15px;
