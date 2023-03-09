@@ -246,6 +246,7 @@ blockquote p:first-child {
   font-style: italic;
 }
 .about {
+  max-width: 90%;
   margin-top: 5%;
   padding: 20px;
   background-color: #86410026;
@@ -274,6 +275,9 @@ blockquote p:first-child {
   margin: 10px;
 }
 @media screen and (max-width: 768px) {
+  .about {
+    max-width: 100%;
+  }
   .book-details {
     flex-direction: column;
     align-items: center;
