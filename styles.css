@@ -118,7 +118,6 @@ h1 span, h2 span, h3 span {
   
   /* Modal Content/Box */
   .modal-content {
-    overflow-y: scroll;
     position: relative;
     background-color: #fefefe;
     margin: auto;
@@ -202,12 +201,12 @@ footer p {
 .center {
   text-align: center;
 }
-.price > span {
+.price {
     color: red;
     padding-bottom: 15px;
     font-size: 1.5rem;
+    text-align: center;
 }
-.price {align-text: left;}
     
 .discount {
   text-align: center;
